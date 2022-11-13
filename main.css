@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*basic setting, from page background color and font-family*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Monsterrat", sans-serif;
+    background-color:rgb(80, 77, 77);
+    box-sizing: border-box;
+    
+    
+    
+}
+/* AUTO FONTS, KEEPS TEXT CENTERED.*/
+
+h1, h2, h3, h4, h5{
+     color: antiquewhite;
+     text-align: center;
+     line-height: 1.25;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 16px;
+    color: antiquewhite;
+}
+
+
+
+/*Navigation*/
+nav{
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img{
+    max-height: 100px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nav__links{
+    display: flex;
+}
+
+.nav__link--anchor{
+    margin: 0 12px;
+    color: black;
+    text-decoration: none;
+    font-weight:700;
+
+}
+
+.nav__link--anchor:hover{
+    color: goldenrod;
+}
+
+
+
+
+
+li{
+    list-style-type: none;
+}
+
+/*recycling section code*/
+
+
+
+/*Main Page*/
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_container{
+    flex:1;
+
+}
+
+.whoamI__pic--mask img{
+    width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.whoamI__infocontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.row{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titlegold{
+    color: gold;
+    list-style-type: none;
+}
+
+.textgold{
+    color: gold;
+    font-size: 36px;
+}
+
+.introduction_text{
+    margin-bottom: 28px;
+    font-size: 20px;
+}
+
+.header__intro{
+    margin-bottom: 10px;
+}
+
+/*Social Links*/
+
+.social_links{
+    
+    padding:0 30px;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: gold;
+
+}
+
+.social_links:hover{
+    filter:brightness(80%);
+    opacity: 0.86;
+    transform: scale(1.10);
+}
+
+.bayek_two img{
+    width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+    filter:brightness(65%);
+}
+
+.discord_user{
+    text-align: center;
+    bottom: 50%;
+    font-weight: 500;
+    font-size: large;
+
+    
+}
+
+
+/* Blog HTML*/
+.blog__container{
+    width: 100%;
+}
+
+.blog__container .row{
+    width:80%;
+    margin:auto;
+}
+
+.blog__container .row .header{
+    width: 60%;
+    text-align: center;
+    margin:auto;
+
+}
+
+.title{
+    padding-top: 30px;
+    color: gold;
+}
+
+
+.blog__container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    
+}
+
+.content .card img{
+    
+    width: 100%;
+    height: auto;
+}
+
+.blog__header{
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.blog__header:hover{
+    transition: all 0.2 ease-out 0;
+    color: wheat;
+}
+
+/*blog social icons*/
+
+.whoamI__info--blog{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
